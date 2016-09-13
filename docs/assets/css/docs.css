@@ -4,6 +4,37 @@
 	Use this file to override default Bootstrap variables in
    	bootstrap-sass/assets/stylesheets/bootstrap/variables.scss
 */
+.site-header {
+  width: 100%;
+  background-color: #0f2446;
+}
+.site-header h1 {
+  color: #ffffff;
+}
+
+.site-nav {
+  width: 100%;
+  padding-top: 10px;
+  background-color: #a4b0b9;
+}
+.site-nav a {
+  color: #ffffff;
+}
+.site-nav li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.logo {
+  float: left;
+  margin-top: 10px;
+  margin-right: 16px;
+}
+.logo img {
+  height: 54px;
+  width: 54px;
+}
+
 .color-chip {
   height: 100px;
   width: 100px;

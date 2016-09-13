@@ -1,12 +1,14 @@
 <div class="site-nav">
-  <ul class="main">
-    <li>
-      <a href="/">Home</a>
-    {% for post in site.posts %}      
-       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
+	<div class="container">
+	  <ul class="main">
+	    <li>
+	      <a href="/">Home</a>
+	    {% for post in site.posts %}      
+	       <li>
+	        <a href="{{ post.url }}">{{ post.title }}</a>
+	      </li>
+	    {% endfor %}
 
-  </ul>
+	  </ul>
+	</div>
 </div>

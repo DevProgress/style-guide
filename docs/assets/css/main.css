@@ -1,4 +1,8 @@
 @charset "UTF-8";
+/* 
+	Use this file to override default Bootstrap variables in
+   	bootstrap-sass/assets/stylesheets/bootstrap/variables.scss
+*/
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;

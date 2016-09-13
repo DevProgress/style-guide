@@ -3,7 +3,35 @@
 /* Let's use the variable overrides for the docs too */
 @import "../../src/scss/variable-overrides";
 
+.site-header {
+	width: 100%;
+	background-color: $brand-blue-dk;
+	h1 {
+		color: $color-white;
+	}
+}
+.site-nav {
+	width: 100%;
+	padding-top: 10px;
+	background-color: $gray-light;
+	a {
+		color: $color-white;
+	}
+	li {
+		display: inline-block;
+		margin-right: 16px;
+	}
+}
 
+.logo {
+	float: left;
+	margin-top: 10px;
+	margin-right: 16px;
+	img {
+		height: 54px;
+		width: 54px;
+	}
+}
 .color-chip {
 	height: 100px;
 	width: 100px;
