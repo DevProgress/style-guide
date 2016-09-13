@@ -1,0 +1,59 @@
+/* This is the docs css */
+/* Let's use the variable overrides for the docs too */
+/* 
+	Use this file to override default Bootstrap variables in
+   	bootstrap-sass/assets/stylesheets/bootstrap/variables.scss
+*/
+.color-chip {
+  height: 100px;
+  width: 100px;
+  float: left;
+  margin: 0 24px 24px 0;
+}
+
+/* Colors */
+.brand-primary {
+  background-color: #0055b8;
+}
+
+.brand-blue-lt {
+  background-color: #53aaff;
+}
+
+.brand-blue-med {
+  background-color: #2c2d7a;
+}
+
+.brand-blue-dk {
+  background-color: #0f2446;
+}
+
+.brand-red {
+  background-color: #b60015;
+}
+
+.gray-base {
+  background-color: #282e33;
+}
+
+.gray-darker {
+  background-color: #324553;
+}
+
+.gray-dark {
+  background-color: #465662;
+}
+
+.gray {
+  background-color: #667682;
+}
+
+.gray-light {
+  background-color: #a4b0b9;
+}
+
+.gray-lighter {
+  background-color: #e7eaec;
+}
+
+/*# sourceMappingURL=docs.css.map */

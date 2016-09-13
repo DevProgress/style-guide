@@ -1,0 +1,48 @@
+/* This is the docs css */
+
+/* Let's use the variable overrides for the docs too */
+@import "../../src/scss/variable-overrides";
+
+
+.color-chip {
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin: 0 24px 24px 0;
+}
+/* Colors */
+
+.brand-primary {
+	background-color: $brand-primary;
+}         
+.brand-blue-lt {
+	background-color: $brand-blue-lt;
+} 		
+.brand-blue-med {
+	background-color: $brand-blue-med;
+}		
+.brand-blue-dk {
+	background-color: $brand-blue-dk;
+}			
+.brand-red {
+	background-color: $brand-red;
+}				
+.gray-base   {
+	background-color: $gray-base;
+}       
+.gray-darker {
+	background-color: $gray-darker;
+}
+.gray-dark {
+	background-color: $gray-dark;
+}
+.gray {
+	background-color: $gray;
+}
+.gray-light {
+	background-color: $gray-light;
+}
+.gray-lighter {
+	background-color: $gray-lighter;
+}
+

@@ -1,0 +1,47 @@
+---
+layout: project
+nav: work
+---
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+ <!--   <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>-->
+  </header>
+
+  <article class="post-content">
+    {{ content }}
+    
+		<ul class="proj-img {% if page.img-display == 'grid' %}{{ page.img-display }}{% endif %}">
+    {% for item in page.images %}
+			<li>
+        <figure>
+  				<img class="{% if item.border %}{{ item.border }}{% endif %}" src="{{ site.baseurl }}{{ site.proj-imgpath }}{{ item.image }}" alt="{{ item.alt }}" title="{% if item.caption %}{{ item.caption }}{% else %}{{ item.alt }}{% endif %}"/>
+  				<figcaption>{{ item.caption }}</figcaption>
+        </figure>  
+			</li>
+    {% endfor %}
+  	</ul>
+    
+
+    <!--<div class="prev-next">
+
+      {% if page.next.url %}  
+        <a class="prev" href="{{page.next.url}}" title="Previous Post: {{page.next.title}}">
+          <img src="{{ site.proj-imgpath }}{{ page.next.thumb }}" />
+          <h3>Previous</h3>
+        </a>
+      {% endif %}
+
+      {% if page.previous.url %}
+        <a class="next" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">
+          <img src="{{ site.proj-imgpath }}{{ page.previous.thumb }}" />
+          <h3>Next</h3>
+        </a>
+     {% endif %}
+
+    </div>-->
+
+  </article>
+
+</div>

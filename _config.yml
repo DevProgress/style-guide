@@ -1,0 +1,27 @@
+# Site settings
+title: DevProgress Style Guide
+name: DevProgress
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+   Style guide and pattern library for DevProgress projects.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.devprogress.us" # the base hostname & protocol for your site
+host: 0.0.0.0
+permalink: /:categories/:title
+assets_path: /assets/
+
+# Build settings
+source: "docs"
+destination: "_gh_pages"
+markdown: kramdown
+exclude: [
+	.gitignore,
+	svg-icons,
+	svg-decorations,
+	scss,
+	.sass-cache,
+	package.json,
+	Gruntfile.js,
+	node_modules,
+	readme.md
+]
