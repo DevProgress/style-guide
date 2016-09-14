@@ -20,6 +20,9 @@
 .site-nav a {
   color: #ffffff;
 }
+.site-nav ul {
+  padding-left: 0;
+}
 .site-nav li {
   display: inline-block;
   margin-right: 16px;
