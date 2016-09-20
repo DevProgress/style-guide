@@ -10,7 +10,7 @@ module.exports = function(grunt) {
     uglify: {
       global: {
         files: {
-          "dist/js/site.min.js": ["src/js/site.js"]
+          "dist/js/dp-docs.min.js": ["src/js/dp-docs.js"]
         }
       }
     },
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
           loadPath: 'node_modules/bootstrap-sass/assets/stylesheets'
         },
         files: {
-          "dist/css/global-unprefixed-min.css": "src/scss/global.scss"
+          "dist/css/main-unprefixed-min.css": "src/scss/main.scss"
         }
       },
       global: {
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
           loadPath: 'node_modules/bootstrap-sass/assets/stylesheets'
         },
         files: {
-          "dist/css/global-unprefixed.css": "src/scss/global.scss"
+          "dist/css/main-unprefixed.css": "src/scss/main.scss"
         }
       },
       docs: {
@@ -40,25 +40,25 @@ module.exports = function(grunt) {
           style: "expanded"
         },
         files: {
-          "docs/assets/css/docs.css": "docs/scss/docs.scss"
+          "docs/assets/css/docs.css": "docs_src/scss/docs.scss"
         }
       }
     },
 
     autoprefixer: {
       dist: {
-        src: "dist/css/global-unprefixed-min.css",
+        src: "dist/css/main-unprefixed-min.css",
         dest: "dist/css/main-min.css"
       },
       global: {
-        src: "dist/css/global-unprefixed.css",
+        src: "dist/css/main-unprefixed.css",
         dest: "dist/css/main.css"
       }
     },
     copy: {
       docs: {
         files: [
-          {expand: true, cwd: 'dist', src: ['**'], dest: 'docs/assets'}
+          {expand: true, cwd: 'dist', src: ['**'], dest: 'docs_src/assets'}
         ],
       },
 
@@ -77,7 +77,7 @@ module.exports = function(grunt) {
         livereload: false
       },
       site: {
-        files: ["docs/index.html", "docs/_layouts/*.html", "docs/_posts/*.md",  "docs/_includes/*.html"],
+        files: ["docs_src/index.html", "docs_src/_layouts/*.html", "docs_src/_posts/*.md",  "docs_src/_includes/*.html"],
         tasks: ["shell:jekyllBuild"]
       },
       js: {
@@ -85,7 +85,7 @@ module.exports = function(grunt) {
         tasks: ["uglify", "shell:jekyllBuild"]
       },
       css: {
-        files: ["src/scss/*.scss", "docs/scss/*.scss"],
+        files: ["src/scss/*.scss", "docs_src/scss/*.scss"],
         tasks: ["sass", "autoprefixer", "shell:jekyllBuild"]
       },
       svgIcons: {
@@ -104,7 +104,7 @@ module.exports = function(grunt) {
       },
       default: {
         files: {
-          "docs/_includes/svg-defs.svg": ["src/svg/*.svg"]
+          "docs_src/_includes/svg-defs.svg": ["src/svg/*.svg"]
         }
       }
     },

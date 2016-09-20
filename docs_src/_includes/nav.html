@@ -1,0 +1,9 @@
+<aside class="side-nav">
+	<nav>
+		<ul class="nav-list">
+			{% for post in site.posts %}
+			<li><a href="{{post.url}}">{{post.title | capitalize}}</a></li> 
+			{% endfor %}
+		</ul>
+	</nav>
+</aside>

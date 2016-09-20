@@ -20,3 +20,5 @@ Copy variables from the Bootstrap variables into the override file. Be sure to r
 `src/scss/_devprogress.scss` should contain all styles for DevProgress specific components that are not part of Bootstrap. For example styles for a common DevProgress footer would go here.
 
 `docs/scss/_docs.scss` contains styles specific to the style guide documentation.
+
+## Updating the docs

@@ -11,8 +11,8 @@ permalink: /:categories/:title
 assets_path: /assets/
 
 # Build settings
-source: "docs"
-destination: "_gh_pages"
+source: "docs_src"
+destination: "docs"
 markdown: kramdown
 exclude: [
 	.gitignore,

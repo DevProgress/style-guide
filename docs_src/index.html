@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="home">
+  <p>Welcome to the DevProgress Style Guide</p>
+  
+
+  {% for post in site.posts %}
+  	<section id="{{ post.title | downcase }}" class="">
+  		{{ post.content }}
+  	</section>
+  	<hr>
+
+  {% endfor %}
+
+</div>

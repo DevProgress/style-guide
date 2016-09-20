@@ -2966,7 +2966,7 @@ input[type="search"] {
   .input-group-lg > input[type="month"].form-control,
   .input-group-lg > input[type="month"].input-group-addon,
   .input-group-lg > .input-group-btn > input[type="month"].btn {
-    line-height: 46px;
+    line-height: 50px;
   }
 }
 .form-group {
@@ -3082,8 +3082,8 @@ select[multiple].input-sm,
 .input-lg, .input-group-lg > .form-control,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .btn, .form-group-lg .form-control {
-  height: 46px;
-  padding: 10px 16px;
+  height: 50px;
+  padding: 12px 20px;
   font-size: 18px;
   line-height: 1.33;
   border-radius: 6px;
@@ -3092,8 +3092,8 @@ select[multiple].input-sm,
 select.input-lg, .input-group-lg > select.form-control,
 .input-group-lg > select.input-group-addon,
 .input-group-lg > .input-group-btn > select.btn, .form-group-lg .form-control {
-  height: 46px;
-  line-height: 46px;
+  height: 50px;
+  line-height: 50px;
 }
 
 textarea.input-lg, .input-group-lg > textarea.form-control,
@@ -3129,9 +3129,9 @@ select[multiple].input-lg,
 .input-lg + .form-control-feedback, .input-group-lg > .form-control + .form-control-feedback,
 .input-group-lg > .input-group-addon + .form-control-feedback,
 .input-group-lg > .input-group-btn > .btn + .form-control-feedback {
-  width: 46px;
-  height: 46px;
-  line-height: 46px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
 }
 
 .input-sm + .form-control-feedback, .input-group-sm > .form-control + .form-control-feedback,
@@ -3323,7 +3323,7 @@ select[multiple].input-lg,
 }
 @media (min-width: 768px) {
   .form-horizontal .form-group-lg .control-label {
-    padding-top: 14.3px;
+    padding-top: 16.96px;
   }
 }
 @media (min-width: 768px) {
@@ -3532,7 +3532,7 @@ select[multiple].input-lg,
 }
 
 .btn-lg, .btn-group-lg > .btn {
-  padding: 10px 16px;
+  padding: 12px 20px;
   font-size: 18px;
   line-height: 1.33;
   border-radius: 6px;
@@ -4013,7 +4013,7 @@ tbody.collapse.in {
 .input-group-addon.input-lg,
 .input-group-lg > .input-group-addon,
 .input-group-lg > .input-group-btn > .input-group-addon.btn {
-  padding: 10px 16px;
+  padding: 12px 20px;
   font-size: 18px;
   border-radius: 6px;
 }
@@ -4842,7 +4842,7 @@ tbody.collapse.in {
 
 .pagination-lg > li > a,
 .pagination-lg > li > span {
-  padding: 10px 16px;
+  padding: 12px 20px;
   font-size: 18px;
 }
 .pagination-lg > li:first-child > a,
@@ -6797,6 +6797,8 @@ button.close {
     display: none !important;
   }
 }
+/*
+*/
 @font-face {
   font-family: SharpUnity;
   font-style: normal;

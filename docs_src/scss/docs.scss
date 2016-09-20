@@ -1,31 +1,64 @@
 /* This is the docs css */
 
-/* Let's use the variable overrides for the docs too */
+/* Override default Bootstrap variables */
 @import "../../src/scss/variable-overrides";
 
+p {
+	max-width: 54rem;
+}
 .site-header {
 	width: 100%;
 	background-color: $brand-blue-dk;
+	position: relative;
+	top: 0;
+	left: 0;
+	padding: $padding-large-vertical $padding-large-horizontal; 
 	h1 {
 		color: $color-white;
 	}
-}
-.site-nav {
-	width: 100%;
-	padding-top: 10px;
-	background-color: $gray-light;
-	a {
-		color: $color-white;
+	&:after {
+		content: "";  
+		display: table;
+		clear: both;
 	}
+}
+.side-nav {
+	float: left;
+	width: 250px;
+	bottom: 0;
+	padding: $padding-large-vertical $padding-large-horizontal;
+	
 	ul {
 		padding-left: 0;
+		font-weight: 100;
 	}
 	li {
-		display: inline-block;
-		margin-right: 16px;
+		display: block;
+		padding: $padding-large-vertical 0;
+		a {
+			color: $gray-base;
+		}
+		&.active {
+			font-weight: 400;
+		}
 	}
 }
-
+.main-content {
+	width: calc(100% - 250px);
+	display: inline-block;
+	position: relative;
+	right: 0;
+	bottom: 0;
+}
+.guide-content {
+	max-width: 1024px;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+.site-banner {
+	float: left;
+	position: relative;
+}
 .logo {
 	float: left;
 	margin-top: 10px;
@@ -34,6 +67,9 @@
 		height: 54px;
 		width: 54px;
 	}
+}
+.site-name {
+	float: left;
 }
 .color-chip {
 	height: 100px;
