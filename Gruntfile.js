@@ -40,7 +40,7 @@ module.exports = function(grunt) {
           style: "expanded"
         },
         files: {
-          "docs/assets/css/docs.css": "docs_src/scss/docs.scss"
+          "docs_src/assets/css/docs.css": "docs_src/scss/docs.scss"
         }
       }
     },
@@ -65,7 +65,7 @@ module.exports = function(grunt) {
     },
     shell: {
       jekyllServe: {
-        command: "jekyll serve --baseurl '' --port '4001'"
+        command: "jekyll serve --port '4001'"
       },
       jekyllBuild: {
         command: "jekyll build --config _config.yml"

@@ -9,17 +9,50 @@ categories:
 
 ---
 {::options auto_ids="false" /}
-## Typography ##
+# Typography #
 
-# H1 - The quick brown fox jumped over the lazy dog
-## H2 - The quick brown fox jumped over the lazy dog
-### H3 - The quick brown fox jumped over the lazy dog
-#### H4 - The quick brown fox jumped over the lazy dog
-##### H5 - The quick brown fox jumped over the lazy dog
-###### H6 - The quick brown fox jumped over the lazy dog
+<section class="type-specimen">
+	<h4>Sharp Unity Book</h4>
+	<p class="sharp-unity-book">
+		The quick brown fox jumped over the lazy dog.</p>
+	<p class="sharp-unity-book">
+		<em>The quick brown fox jumped over the lazy dog.</em>
+	</p>
+	<p class="sharp-unity-book text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh nisi. Donec dignissim, felis ac cursus semper, enim libero pharetra dolor, sed cursus quam lectus ut mauris. Quisque vel est et leo rhoncus sagittis quis non sem.
+	</p>
+</section>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh nisi. Donec dignissim, felis ac cursus semper, enim libero pharetra dolor, sed cursus quam lectus ut mauris. Quisque vel est et leo rhoncus sagittis quis non sem. Quisque tincidunt eros in rutrum sagittis. Maecenas eget nunc nec massa eleifend tristique. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam gravida tellus vitae nisl tempus dignissim. Nulla facilisi. Integer elementum fermentum justo et vehicula.
+<section class="type-specimen">
+	<h4>Sharp Unity Semi Bold</h4>
+	<p class="sharp-unity-semibold">
+	The quick brown fox jumped over the lazy dog.
+	</p>
+	<p class="sharp-unity-semibold">
+	<em>The quick brown fox jumped over the lazy dog.</em>
+	</p>
+	<p class="sharp-unity-semibold text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh nisi. Donec dignissim, felis ac cursus semper, enim libero pharetra dolor, sed cursus quam lectus ut mauris. Quisque vel est et leo rhoncus sagittis quis non sem.
+	</p>
+</section>
 
-<h3>Let's test a code block, shall we?</h3>
-
-<pre><code class="language-css">p { color: red }</code></pre>
+<section class="type-specimen">
+	<h4>Sharp Unity Extra Bold</h4>	
+	<p class="sharp-unity-xbold">
+	The quick brown fox jumped over the lazy dog.
+	</p>
+	<p class="sharp-unity-xbold">
+	<em>The quick brown fox jumped over the lazy dog.</em>
+	</p>
+	<p class="sharp-unity-xbold text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh nisi. Donec dignissim, felis ac cursus semper, enim libero pharetra dolor, sed cursus quam lectus ut mauris. Quisque vel est et leo rhoncus sagittis quis non sem.
+	</p>
+</section>
+<section class="type-specimen">
+	<h4>Georgia</h4>
+	<p class="serif">
+	The quick brown fox jumped over the lazy dog.
+	</p>
+	<p class="serif">
+	<em>The quick brown fox jumped over the lazy dog.</em>
+	</p>
+	<p class="serif text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget nibh nisi. Donec dignissim, felis ac cursus semper, enim libero pharetra dolor, sed cursus quam lectus ut mauris. Quisque vel est et leo rhoncus sagittis quis non sem.
+	</p>
+</section>

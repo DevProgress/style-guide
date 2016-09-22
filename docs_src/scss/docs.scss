@@ -6,6 +6,32 @@
 p {
 	max-width: 54rem;
 }
+
+.guide-content section {
+	margin-top: 2em;
+}
+.type-specimen {
+	p {
+		font-size: 30px;
+		max-width: 100%;
+		&.text {
+			font-size: 1em;
+			max-width: 54rem;
+		}
+	}
+}
+.sharp-unity-book {
+	font-weight: 100;
+}
+.sharp-unity-semibold {
+	font-weight: 400;
+}
+.sharp-unity-xbold {
+	font-weight: 800;
+}
+.serif {
+	font-family: $font-family-serif;
+}
 .site-header {
 	width: 100%;
 	background-color: $brand-blue-dk;
@@ -71,14 +97,27 @@ p {
 .site-name {
 	float: left;
 }
-.color-chip {
-	height: 100px;
-	width: 100px;
-	float: left;
-	margin: 0 24px 24px 0;
-}
 /* Colors */
-
+.color-list {
+	padding: 0;
+}
+.color-swatch {
+	text-align: center;
+	display: inline-block;
+	margin: 0 24px 24px 0;
+	border: 1px solid $gray;
+	width: 128px;
+	p {
+		margin-bottom: 4px;
+	}
+}
+.swatch-color {
+	height: 100px;
+	width: 100%;
+}
+.swatch-label {
+	padding: 8px;
+}
 .brand-primary {
 	background-color: $brand-primary;
 }         
@@ -112,4 +151,29 @@ p {
 .gray-lighter {
 	background-color: $gray-lighter;
 }
+
+.glyphicons-list {
+	list-style: none;
+	font-size: 12px;
+	padding: 0;
+	li {
+		width: 12.5%;
+		float: left;
+		text-align: center;
+		height: 115px;
+		span { 
+			display: block;
+		}
+		.glyphicon {
+			margin-top: 5px;
+    		margin-bottom: 10px;
+    		font-size: 24px;
+		}
+	}
+}
+
+
+
+
+
 
