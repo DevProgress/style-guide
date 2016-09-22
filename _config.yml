@@ -20,6 +20,7 @@ exclude: [
 	svg-decorations,
 	scss,
 	.sass-cache,
+	img,
 	package.json,
 	Gruntfile.js,
 	node_modules,

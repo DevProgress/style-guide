@@ -91,6 +91,10 @@ module.exports = function(grunt) {
       svgIcons: {
         files: ["svg/*.svg"],
         tasks: ["svgstore", "shell:jekyllBuild"]
+      },
+      images: {
+        files: ["docs_src/img/*.{png,jpg,gif}"],
+        tasks: ["imagemin", "shell:jekyllBuild"]
       }
     },
 
@@ -116,9 +120,9 @@ module.exports = function(grunt) {
         },                         
         files: [{
           expand: true,                  
-          cwd: 'img/uncompressed',                   
+          cwd: 'docs_src/img',                   
           src: ['**/*.{png,jpg,gif}'],   
-          dest: 'img/'
+          dest: 'docs_src/assets/img/'
         }]
       }
     }
@@ -131,6 +135,6 @@ module.exports = function(grunt) {
 
   //grunt.registerTask("imagemin", ["imagemin"]);
   grunt.registerTask("serve", ["shell:jekyllServe"]);
-  grunt.registerTask("default", ["sass", "copy", "autoprefixer", "svgstore", "shell:jekyllBuild", "watch"]);
+  grunt.registerTask("default", ["sass", "autoprefixer", "copy", "svgstore", "shell:jekyllBuild", "watch"]);
 
 };
