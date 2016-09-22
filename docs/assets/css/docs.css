@@ -177,21 +177,21 @@ p {
   background-color: #e7eaec;
 }
 
-.glyphicons-list {
+.icon-list {
   list-style: none;
   font-size: 12px;
   padding: 0;
 }
-.glyphicons-list li {
+.icon-list li {
   width: 12.5%;
   float: left;
   text-align: center;
   height: 115px;
 }
-.glyphicons-list li span {
+.icon-list li span {
   display: block;
 }
-.glyphicons-list li .glyphicon {
+.icon-list li .glyphicon, .icon-list li .dp-icon {
   margin-top: 5px;
   margin-bottom: 10px;
   font-size: 24px;

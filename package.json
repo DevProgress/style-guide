@@ -22,6 +22,7 @@
     "grunt-jekyll": "^0.4.2",
     "grunt-shell": "^1.1.1",
     "grunt-svgstore": "^0.4.1",
+    "grunt-webfont": "^1.6.0",
     "load-grunt-tasks": "^1.0.0"
   }
 }

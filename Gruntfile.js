@@ -55,6 +55,32 @@ module.exports = function(grunt) {
         dest: "dist/css/main.css"
       }
     },
+    webfont: {
+            icons: {
+                src: 'src/img/svg/icons/*.svg',
+                dest: 'dist/fonts/icons',
+                destCss: 'src/scss',
+                options: {
+                  stylesheet: 'scss',
+                  relativeFontPath: '../fonts/icons',
+                  htmlDemo: true,
+                  destHtml: 'docs_src/_includes',
+                  engine: 'node',
+                  types: 'eot,woff,ttf',
+                  font: 'dev-progress-icons',
+                  hashes: false,
+                  template: 'src/img/svg/icons/templates/icons.css',
+                  htmlDemoTemplate: 'src/img/svg/icons/templates/dp-icons.html',
+                  templateOptions: {
+                      baseClass: 'dp-icon',
+                      classPrefix: 'dp-icon-',
+                  },
+                  fontHeight: 512,
+                  descent: -4,
+                  ascent: 512
+                }
+            }
+        },
     copy: {
       docs: {
         files: [

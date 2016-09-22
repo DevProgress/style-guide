@@ -7333,6 +7333,42 @@ button.close {
     display: none !important;
   }
 }
+@font-face {
+  font-family: "Dev-progress-icons";
+  src: url("../fonts/icons/dev-progress-icons.eot");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Dev-progress-icons";
+  src: url("../fonts/icons/dev-progress-icons.eot?#iefix") format("embedded-opentype"), url("../fonts/icons/dev-progress-icons.woff") format("woff"), url("../fonts/icons/dev-progress-icons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+span[class*="dp-icon-"] {
+  display: inline-block;
+  position: relative;
+  top: 1px;
+  line-height: 1;
+  vertical-align: middle;
+  text-decoration: none;
+  text-transform: none;
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  speak: none;
+}
+
+span[class*="dp-icon-"]:before {
+  font-family: "Dev-progress-icons";
+}
+
+.dp-icon-star:before {
+  content: "\f101";
+}
+
 /*
 */
 @font-face {

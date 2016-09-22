@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<meta charset="utf-8">
+		<title><%= fontBaseName %></title>
+		<style>
+		body {
+			margin: 0;
+			padding: 10px 20px;
+			background: #333;
+			color: #fff;
+            font-family: "Arial", sans-serif;
+			}
+		h1 {
+			margin:0 0 20px;
+			font-size:32px;
+			font-weight:normal;
+			}
+		.icons {
+			margin-bottom:40px;
+			-webkit-column-count:5;
+			   -moz-column-count:5;
+			        column-count:5;
+			-webkit-column-gap:20px;
+			   -moz-column-gap:20px;
+			        column-gap:20px;
+			}
+        .icon {
+          padding: 10px 0;
+        }
+
+		<%= styles %>
+		</style>
+	</head>
+	<body>
+		<h1><%= fontBaseName %></h1>
+
+		<div class="icons">
+			<% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx] %>
+				<div class="icon">
+                  <i class="<%= classPrefix %><%= glyph %>"></i>
+                  <%= classPrefix %><%= glyph %>
+                </div>
+			<% } %>
+		</div>
+
+	</body>
+</html>

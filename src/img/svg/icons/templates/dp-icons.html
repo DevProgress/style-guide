@@ -1,0 +1,11 @@
+
+<h3><%= fontBaseName %></h3>
+<ul class="icon-list clearfix">
+	<% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx] %>
+	<li>
+	  <span class="<%= baseClass %> <%= classPrefix %><%= glyph %>" aria-hidden="true"></span>
+	  <code><%= classPrefix %><%= glyph %></code>
+	</li>
+	<% } %>
+</ul>
+	
