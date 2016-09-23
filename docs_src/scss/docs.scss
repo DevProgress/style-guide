@@ -171,7 +171,21 @@ p {
 		}
 	}
 }
-
+.logo-example {
+	margin-bottom: 1em;
+	.logo-type {
+		img {
+			height: 107px;
+			width: 451px;
+		}
+	}
+	.logo-badge {
+		img {
+			height: 107px;
+			width: 107px;
+		}
+	}
+}
 
 
 

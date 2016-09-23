@@ -197,4 +197,16 @@ p {
   font-size: 24px;
 }
 
+.logo-example {
+  margin-bottom: 1em;
+}
+.logo-example .logo-type img {
+  height: 107px;
+  width: 451px;
+}
+.logo-example .logo-badge img {
+  height: 107px;
+  width: 107px;
+}
+
 /*# sourceMappingURL=docs.css.map */
