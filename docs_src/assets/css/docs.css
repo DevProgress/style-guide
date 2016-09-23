@@ -1,0 +1,212 @@
+/* This is the docs css */
+/* Override default Bootstrap variables */
+/* 
+	Use this file to override default Bootstrap variables in
+   	bootstrap-sass/assets/stylesheets/bootstrap/variables.scss
+*/
+p {
+  max-width: 54rem;
+}
+
+.guide-content section {
+  margin-top: 2em;
+}
+
+.type-specimen p {
+  font-size: 30px;
+  max-width: 100%;
+}
+.type-specimen p.text {
+  font-size: 1em;
+  max-width: 54rem;
+}
+
+.sharp-unity-book {
+  font-weight: 100;
+}
+
+.sharp-unity-semibold {
+  font-weight: 400;
+}
+
+.sharp-unity-xbold {
+  font-weight: 800;
+}
+
+.serif {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.site-header {
+  width: 100%;
+  background-color: #0f2446;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 12px 20px;
+}
+.site-header h1 {
+  color: #ffffff;
+}
+.site-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.side-nav {
+  float: left;
+  width: 250px;
+  bottom: 0;
+  padding: 12px 20px;
+}
+.side-nav ul {
+  padding-left: 0;
+  font-weight: 100;
+}
+.side-nav li {
+  display: block;
+  padding: 12px 0;
+}
+.side-nav li a {
+  color: #282e33;
+}
+.side-nav li.active {
+  font-weight: 400;
+}
+
+.main-content {
+  width: calc(100% - 250px);
+  display: inline-block;
+  position: relative;
+  right: 0;
+  bottom: 0;
+}
+
+.guide-content {
+  max-width: 1024px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.site-banner {
+  float: left;
+  position: relative;
+}
+
+.logo {
+  float: left;
+  margin-top: 10px;
+  margin-right: 16px;
+}
+.logo img {
+  height: 54px;
+  width: 54px;
+}
+
+.site-name {
+  float: left;
+}
+
+/* Colors */
+.color-list {
+  padding: 0;
+}
+
+.color-swatch {
+  text-align: center;
+  display: inline-block;
+  margin: 0 24px 24px 0;
+  border: 1px solid #667682;
+  width: 128px;
+}
+.color-swatch p {
+  margin-bottom: 4px;
+}
+
+.swatch-color {
+  height: 100px;
+  width: 100%;
+}
+
+.swatch-label {
+  padding: 8px;
+}
+
+.brand-primary {
+  background-color: #0055b8;
+}
+
+.brand-blue-lt {
+  background-color: #53aaff;
+}
+
+.brand-blue-med {
+  background-color: #2c2d7a;
+}
+
+.brand-blue-dk {
+  background-color: #0f2446;
+}
+
+.brand-red {
+  background-color: #b60015;
+}
+
+.gray-base {
+  background-color: #282e33;
+}
+
+.gray-darker {
+  background-color: #324553;
+}
+
+.gray-dark {
+  background-color: #465662;
+}
+
+.gray {
+  background-color: #667682;
+}
+
+.gray-light {
+  background-color: #a4b0b9;
+}
+
+.gray-lighter {
+  background-color: #e7eaec;
+}
+
+.icon-list {
+  list-style: none;
+  font-size: 12px;
+  padding: 0;
+}
+.icon-list li {
+  width: 12.5%;
+  float: left;
+  text-align: center;
+  height: 115px;
+}
+.icon-list li span {
+  display: block;
+}
+.icon-list li .glyphicon, .icon-list li .dp-icon {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.logo-example {
+  margin-bottom: 1em;
+}
+.logo-example .logo-type img {
+  height: 107px;
+  width: 451px;
+}
+.logo-example .logo-badge img {
+  height: 107px;
+  width: 107px;
+}
+
+/*# sourceMappingURL=docs.css.map */

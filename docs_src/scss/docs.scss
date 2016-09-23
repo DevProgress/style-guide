@@ -1,0 +1,193 @@
+/* This is the docs css */
+
+/* Override default Bootstrap variables */
+@import "../../src/scss/variable-overrides";
+
+p {
+	max-width: 54rem;
+}
+
+.guide-content section {
+	margin-top: 2em;
+}
+.type-specimen {
+	p {
+		font-size: 30px;
+		max-width: 100%;
+		&.text {
+			font-size: 1em;
+			max-width: 54rem;
+		}
+	}
+}
+.sharp-unity-book {
+	font-weight: 100;
+}
+.sharp-unity-semibold {
+	font-weight: 400;
+}
+.sharp-unity-xbold {
+	font-weight: 800;
+}
+.serif {
+	font-family: $font-family-serif;
+}
+.site-header {
+	width: 100%;
+	background-color: $brand-blue-dk;
+	position: relative;
+	top: 0;
+	left: 0;
+	padding: $padding-large-vertical $padding-large-horizontal; 
+	h1 {
+		color: $color-white;
+	}
+	&:after {
+		content: "";  
+		display: table;
+		clear: both;
+	}
+}
+.side-nav {
+	float: left;
+	width: 250px;
+	bottom: 0;
+	padding: $padding-large-vertical $padding-large-horizontal;
+	
+	ul {
+		padding-left: 0;
+		font-weight: 100;
+	}
+	li {
+		display: block;
+		padding: $padding-large-vertical 0;
+		a {
+			color: $gray-base;
+		}
+		&.active {
+			font-weight: 400;
+		}
+	}
+}
+.main-content {
+	width: calc(100% - 250px);
+	display: inline-block;
+	position: relative;
+	right: 0;
+	bottom: 0;
+}
+.guide-content {
+	max-width: 1024px;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+.site-banner {
+	float: left;
+	position: relative;
+}
+.logo {
+	float: left;
+	margin-top: 10px;
+	margin-right: 16px;
+	img {
+		height: 54px;
+		width: 54px;
+	}
+}
+.site-name {
+	float: left;
+}
+/* Colors */
+.color-list {
+	padding: 0;
+}
+.color-swatch {
+	text-align: center;
+	display: inline-block;
+	margin: 0 24px 24px 0;
+	border: 1px solid $gray;
+	width: 128px;
+	p {
+		margin-bottom: 4px;
+	}
+}
+.swatch-color {
+	height: 100px;
+	width: 100%;
+}
+.swatch-label {
+	padding: 8px;
+}
+.brand-primary {
+	background-color: $brand-primary;
+}         
+.brand-blue-lt {
+	background-color: $brand-blue-lt;
+} 		
+.brand-blue-med {
+	background-color: $brand-blue-med;
+}		
+.brand-blue-dk {
+	background-color: $brand-blue-dk;
+}			
+.brand-red {
+	background-color: $brand-red;
+}				
+.gray-base   {
+	background-color: $gray-base;
+}       
+.gray-darker {
+	background-color: $gray-darker;
+}
+.gray-dark {
+	background-color: $gray-dark;
+}
+.gray {
+	background-color: $gray;
+}
+.gray-light {
+	background-color: $gray-light;
+}
+.gray-lighter {
+	background-color: $gray-lighter;
+}
+
+.icon-list {
+	list-style: none;
+	font-size: 12px;
+	padding: 0;
+	li {
+		width: 12.5%;
+		float: left;
+		text-align: center;
+		height: 115px;
+		span { 
+			display: block;
+		}
+		.glyphicon, .dp-icon {
+			margin-top: 5px;
+    		margin-bottom: 10px;
+    		font-size: 24px;
+		}
+	}
+}
+.logo-example {
+	margin-bottom: 1em;
+	.logo-type {
+		img {
+			height: 107px;
+			width: 451px;
+		}
+	}
+	.logo-badge {
+		img {
+			height: 107px;
+			width: 107px;
+		}
+	}
+}
+
+
+
+
+
